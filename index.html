@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>GrabBag</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS Style Sheets -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css" integrity="sha512-wtjMa8AnvUyCbLxFg1jLR88gSACq81IiYgtIVdeNo3k+M8rdo4JdfScn7WxbZDsxZxFyDOEpMqOvYCzpSM6hnw==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/5a75b55827.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha512-ANkGm5vSmtDaoFA/NB1nVJzOKOiI4a/9GipFtkpMG8Rg2Bz8R1GFf5kfL0+z0lcv2X/KZRugwrAlVTAgmxgvIg==" crossorigin="anonymous"></script>
+
+<body>
+
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">GrabBag</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Download</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="big-heading">HELP FIGHT FOOD WASTE!</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-image" src="images/gb.png" alt="baked food">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">Easy to use.</h3>
+          <p>Scroll through and choose from local restaurants and grocery stores.</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-heart fa-4x"></i>
+          <h3 class="feature-title">Delicious food.</h3>
+          <p>Purchase a mystery bag of unsold items.</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-title">Quick collection.</h3>
+          <p>Show your code and collect your goodies!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Restaurants -->
+
+  <section class="colored-section" id="restaurants">
+
+    <div id="restaurant-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="res-text">Rescue your favourite meals!</h2>
+          <img class="restaurants-image" src="images/Sushi.png" alt="sushi-image">
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <h2 class="res-text">Sandwiches!</h2>
+          <img class="restaurants-image" src="images/Sandwich.png" alt="sandwich-image">
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <h2 class="res-text">Salads!</h2>
+          <img class="restaurants-image" src="images/Salad.png" alt="salad-image">
+        </div>
+
+        <div class="carousel-item container-fluid">
+          <h2 class="res-text">Desserts!</h2>
+          <img class="restaurants-image" src="images/Macaron.png" alt="Macaron-image">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#restaurant-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#restaurant-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#restaurant-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#restaurant-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+
+
+  <!-- Pricing -->
+
+  <section class="white-section" id="pricing">
+
+    <h2 class="section-heading">A bag to satisfy your needs</h2>
+    <p>Tasty and affordable mystery bags.</p>
+
+    <div class="row">
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Single Bag</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$6</h2>
+            <p>Enough food for one person</p>
+            <button type="button" class="btn btn-lg btn-outline-dark btn-block">Reserve</button>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Double Bag</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$10</h2>
+            <p>Enough food for two people</p>
+            <button type="button" class="btn btn-lg btn-dark btn-block">Reserve</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Family Bag</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$22</h2>
+            <p>Enough food for four people</p>
+            <button type="button" class="btn btn-lg btn-dark btn-block">Reserve</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section class="colored-section" id="cta">
+    <div class="container-fluid">
+      <h3 class="big-heading">Help fight food waste by picking up your mystry bag today!</h3>
+      <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+      <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="fab fa-twitter social"></i>
+      <i class="fab fa-facebook-f social"></i>
+      <i class="fab fa-instagram social"></i>
+      <i class="fas fa-envelope social"></i>
+      <p>© Copyright 2021 Grab Bag</p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
